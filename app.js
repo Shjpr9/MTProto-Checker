@@ -1,8 +1,8 @@
-const express = require('express');
-const bodyParser = require('body-parser');
-const open = require('open');
-const { TelegramClient, Api } = require('telegram');
-const { StringSession } = require('telegram/sessions');
+import express from 'express';
+import bodyParser from 'body-parser';
+import open from 'open';
+import { TelegramClient, Api } from 'telegram';
+import { StringSession } from 'telegram/sessions/index.js';
 
 const app = express();
 const PORT = 3000;
